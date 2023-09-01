@@ -30,6 +30,7 @@ while (count < 20) {
   count++;
   if (count % 9 == 0) {
     continue; //preskače daljnje izvođenje koda i pokreće slijedeću iteraciju
+    // break; //prekida izvođenje petlje WHILE
   }
   console.log(count);
 }
