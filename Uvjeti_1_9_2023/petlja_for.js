@@ -11,4 +11,6 @@ for (i = 0; i < 4; i++) {
     console.log("i=" + i + " j=" + j + " varOne=" + varOne);
   }
 }
+//I = 0;
+
 console.log(varOne);
