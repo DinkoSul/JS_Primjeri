@@ -12,3 +12,5 @@
 // 2. Vratite tu riječ iz funkcije i spremite u varijablu.
 // 3. Ispišite varijablu u konzoli.
 var words = ["brown", "fox", "quickest", "jumps", "over", "the", "lazy", "dog"];
+
+//Kreirati račun na gitHub: https://github.com/
