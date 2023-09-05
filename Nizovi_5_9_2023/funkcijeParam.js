@@ -13,5 +13,4 @@ function ispisBroja(x) {
 }
 
 console.log(ispisBroja(broj));
-
 console.log(ispisBroja(ime));
