@@ -45,3 +45,7 @@ sorted1.forEach((element) => {
 //for petlja za ispis niza
 var ispis = ["prvi", "drugi", "treci", "peti"];
 //korištenjem petlje FOR ispiši vrijednost niza ispis
+
+//DZ:
+//1. Poizgrati se sa Multimensional array: https://www.javascripttutorial.net/javascript-multidimensional-array/
+//2. pručiti razliku između FOR OF i FOR IN!
