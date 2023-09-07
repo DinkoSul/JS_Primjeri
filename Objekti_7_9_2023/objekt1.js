@@ -24,7 +24,3 @@ cat.size = 30;
 console.log(cat);
 
 delete dog.bark;
-console.log(dog.propertyIsEnumerable(["has toy"]));
-
-var jsonda = JSON.stringify(dog);
-console.log(jsonda);
