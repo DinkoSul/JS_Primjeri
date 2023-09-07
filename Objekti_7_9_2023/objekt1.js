@@ -7,7 +7,7 @@ var dog = {
   "has Toy": false,
 };
 console.log(cat);
-console.log(dog.breed);
+// console.log(dog.breed);
 console.log(dog.bark);
 console.log(dog.bark());
 
@@ -28,3 +28,8 @@ console.log(cat);
 var ispisObjekta = JSON.stringify(dog); //pretvaranje u JSON objekt
 console.log(dog);
 console.log(ispisObjekta);
+
+console.log(dog.propertyIsEnumerable(["has toy"]));
+
+//više o svojstvima: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable
+//proučiti ostala navedena svojstva; min toString, valueOf...
