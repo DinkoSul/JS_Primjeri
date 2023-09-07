@@ -32,4 +32,16 @@ console.log(ispisObjekta);
 console.log(dog.propertyIsEnumerable(["has toy"]));
 
 //više o svojstvima: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable
-//proučiti ostala navedena svojstva; min toString, valueOf...
+//proučiti ostala navedena svojstva; min toString, valueOf
+
+var dog1 = {
+  breed: "Golden retriever",
+  bark: {
+    //objekt unutar objekta
+    pero: "Wuf Wuf",
+    mato: 33,
+  },
+  "has Toy": false,
+};
+
+console.log(dog1.bark.mato); //ispis vrijednost objekta unutar objekta
