@@ -12,3 +12,4 @@
 
 // 	Da li je element vidljiv na ekranu?
 // 	U slučaju da nije, koliko mu piksela fali i u kojem smjeru?
+//Ne, 1300 - 730-200 = 370px fali
