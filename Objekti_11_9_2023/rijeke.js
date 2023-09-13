@@ -12,3 +12,8 @@ description.parentNode.removeChild(description); //brisanje elementa. parentNode
 // 	- se na početak doda h1 element
 // 	- ispod diva sa klasom "description" se umetne novi div sa klasom "info"
 // 	- lista u footer elementu na kraju mora sadrzavati 5 praznih <li> elemenata - koristiti petlju!
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/prepend
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/className
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode
