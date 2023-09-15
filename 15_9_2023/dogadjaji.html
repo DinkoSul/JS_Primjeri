@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <input type="button" onclick="klik()" value="Click" />
+    <div id="ispis"></div>
+    <script>
+      function klik() {
+        var x = document.getElementById("ispis");
+        x.textContent = "Kliknut sam!";
+      }
+    </script> -->
+    <input id="button" type="button" value="Click" />
+
+    <div id="ispis"></div>
+    <script>
+      var button = document.getElementById("button");
+      button.onclick = function () {
+        var x = document.getElementById("ispis");
+        x.textContent = "Kliknut sam!";
+      };
+    </script>
+  </body>
+</html>
