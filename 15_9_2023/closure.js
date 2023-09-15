@@ -10,3 +10,4 @@ function vratiNesto() {
 
 var y = vratiNesto()();
 console.log(y);
+console.log(x);
