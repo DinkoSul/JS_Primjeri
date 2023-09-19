@@ -3,12 +3,19 @@ var Exercise = (function () {
   function increaseSteps() {
     steps++;
   }
+  function increaseMoreSteps() {
+    steps += 3;
+  }
+
   return {
     getTotalSteps: function () {
       return steps;
     },
     walk: function () {
       increaseSteps();
+    },
+    run: function () {
+      increaseMoreSteps();
     },
   };
 })();

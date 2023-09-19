@@ -1,4 +1,5 @@
 var a = require("./Excercise");
 console.log(a.getTotalSteps());
-a.walk();
+a.run();
+
 console.log(a.getTotalSteps());
