@@ -32,3 +32,5 @@ var wait = new Promise((resolve, reject) => {
 })
   .then((value) => console.log(value))
   .catch(() => console.log("Oh no!"));
+
+//više o Promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
