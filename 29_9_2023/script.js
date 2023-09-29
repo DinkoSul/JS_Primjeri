@@ -34,6 +34,12 @@ function addItem() {
 //dodati eventListener na gumb
 addButton.addEventListener("click", addItem);
 
+//kreiraj funkciju koja briše li element u kojemu se nalazi crveni div element na kojega kliknemo
+function removeItem(event) {
+  var removeButton1 = event.target;
+  removeButton1.parentNode.remove();
+}
+
 //kreirati funkciju koja funkcija prima parametar s vrijednosti  varijable gdje je spremljen LI element
 function addRemoveButton(itemAdd) {
   // kreira novi div element
@@ -41,5 +47,6 @@ function addRemoveButton(itemAdd) {
   //dodati div elementu klasu .removeButton
   removeButton.className = "removeButton";
   //dodati taj novi div iza riječi zapisane u novom LI elementu
+  removeButton.addEventListener("click", removeItem);
   itemAdd.appendChild(removeButton);
 }
