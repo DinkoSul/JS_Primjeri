@@ -23,6 +23,7 @@ function createItem(text) {
   var item = document.createElement("li");
   item.innerText = text;
   list.appendChild(item);
+  addRemoveButton(item);
 }
 
 function addItem() {
@@ -32,3 +33,13 @@ function addItem() {
 }
 //dodati eventListener na gumb
 addButton.addEventListener("click", addItem);
+
+//kreirati funkciju koja funkcija prima parametar s vrijednosti  varijable gdje je spremljen LI element
+function addRemoveButton(itemAdd) {
+  // kreira novi div element
+  var removeButton = document.createElement("div");
+  //dodati div elementu klasu .removeButton
+  removeButton.className = "removeButton";
+  //dodati taj novi div iza riječi zapisane u novom LI elementu
+  itemAdd.appendChild(removeButton);
+}
