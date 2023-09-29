@@ -24,6 +24,7 @@ function createItem(text) {
   item.innerText = text;
   list.appendChild(item);
   addRemoveButton(item);
+  addCheckbox(item);
 }
 
 function addItem() {
@@ -49,4 +50,11 @@ function addRemoveButton(itemAdd) {
   //dodati taj novi div iza riječi zapisane u novom LI elementu
   removeButton.addEventListener("click", removeItem);
   itemAdd.appendChild(removeButton);
+}
+
+//funkcija koja za svaki li element, ispred teksta kreira checkbox
+function addCheckbox(itemAdd) {
+  var checkbox = document.createElement("input");
+  checkbox.setAttribute("type", "checkbox");
+  itemAdd.insertBefore(checkbox, itemAdd.firstChild);
 }
