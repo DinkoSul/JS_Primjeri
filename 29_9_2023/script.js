@@ -13,13 +13,7 @@
   //spremiti vrijednost inputa u varijablu -> .value
   //dodati novom li elementu vrijednost inputa
   //vrijednost input polja postavimo da je prazno
-  // function addItem() {
-  //   var item = document.createElement("li");
-  //   var text = input.value;
-  //   item.innerText = text;
-  //   list.appendChild(item);
-  //   input.value = "";
-  // }
+
   function createItem(text) {
     let item = document.createElement("li");
     item.innerText = text;
